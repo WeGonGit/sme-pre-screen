@@ -1,0 +1,87 @@
+{
+  "applications": [
+    {
+      "id": "9AQ1nulFRiGobkbdbCQXf",
+      "businessName": "xyz",
+      "turnover": 200000,
+      "investment": 50000,
+      "classification": "Micro",
+      "docs": {
+        "kyc": true,
+        "income": true,
+        "businessProof": true
+      },
+      "decision": {
+        "status": "Ready for Appraisal"
+      },
+      "createdAt": "2025-12-09T15:33:00.139Z"
+    },
+    {
+      "id": "ytmFCq6nBLezqLajZx8je",
+      "businessName": "medical",
+      "turnover": 10000000,
+      "investment": 2000000,
+      "classification": "Micro",
+      "docs": {
+        "kyc": true,
+        "income": true,
+        "businessProof": false
+      },
+      "decision": {
+        "status": "Conditional Approval",
+        "reason": "Business proof missing"
+      },
+      "createdAt": "2025-12-09T15:33:44.397Z"
+    },
+    {
+      "id": "sI0FPszbKlprLMwSIeVfo",
+      "businessName": "clothes",
+      "turnover": 100000,
+      "investment": 50000,
+      "classification": "Micro",
+      "docs": {
+        "kyc": true,
+        "income": false,
+        "businessProof": true
+      },
+      "decision": {
+        "status": "On Hold",
+        "reason": "Income proof missing"
+      },
+      "createdAt": "2025-12-09T15:34:20.853Z"
+    },
+    {
+      "id": "vhUbQWwB9d1hu9qrW9fo4",
+      "businessName": "silk",
+      "turnover": 350000,
+      "investment": 250000,
+      "classification": "Micro",
+      "docs": {
+        "kyc": false,
+        "income": true,
+        "businessProof": true
+      },
+      "decision": {
+        "status": "Rejected",
+        "reason": "KYC missing"
+      },
+      "createdAt": "2025-12-09T15:35:13.349Z"
+    },
+    {
+      "id": "k8WV98qpfeuaurEou7ZWI",
+      "businessName": "Pharma co.",
+      "turnover": 2000000,
+      "investment": 200000,
+      "classification": "Micro",
+      "docs": {
+        "kyc": true,
+        "income": true,
+        "businessProof": true
+      },
+      "decision": {
+        "status": "Ready for Appraisal"
+      },
+      "createdAt": "2025-12-10T11:47:59.926Z"
+    }
+  ]
+}
